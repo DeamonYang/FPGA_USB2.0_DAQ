@@ -1,0 +1,26 @@
+module data_trans_mux(
+	ad7266dataa,
+	ad7266datab,
+	ad7266sdclk,
+	
+	usbdata,
+	usbdadd,
+	usbdataclk
+	);
+	
+	
+	/*A 通道数据*/
+	rambuf ad7266buf(
+		.data			(DATAA),
+		.rdaddress	(),
+		.rdclock		(),
+		.wraddress	(),
+		.wrclock		(),
+		.wren			(),
+		.q
+		);
+	
+	
+
+
+endmodule

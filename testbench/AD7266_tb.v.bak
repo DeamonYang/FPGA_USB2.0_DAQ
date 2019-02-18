@@ -1,0 +1,7 @@
+`timescale	1ns/1ps
+module AD7266_tb;
+
+
+
+endmodule
+

@@ -1,0 +1,41 @@
+module AD7266(
+	SCLK		,
+	CS_N		,
+	RANGE		,
+	SGL_DIFN	,
+	A0			,
+	A1			,
+	A2			,
+	DOUTA		,
+	DOUTB		,
+	
+	AD_GO		,
+	AD_DONE	,
+	
+	rst_n		,
+	clk		
+	);
+
+	
+	output SCLK		;
+	output CS_N		;
+	output RANGE	;
+	output SGL_DIFN;
+	output A0		;
+	output A1		;
+	output A2		;
+	input	DOUTA		;
+	input	DOUTB		;
+	input AD_GO		;
+	output AD_DONE	;
+	output reg[15:0]DATAA		;
+	output reg[15:0]DATAB		;
+	input rst_n		;
+	input clk		;
+	
+
+
+
+endmodule
+
+

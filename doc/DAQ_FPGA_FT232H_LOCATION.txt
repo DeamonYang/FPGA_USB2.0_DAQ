@@ -1,0 +1,12 @@
+TO			,Location
+rst_n		,33
+clk			,23
+SCLK		,100	
+CS_N		,101	
+RANGE		,106	
+A0			,103
+A1			,104	
+A2			,105
+DOUTA		,98	
+DOUTB		,99
+led			,54

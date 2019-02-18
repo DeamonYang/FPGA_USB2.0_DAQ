@@ -1,0 +1,14 @@
+module data_buf(
+	datain	,
+	data_inv	,
+	
+	dataout	,
+	data_add	,
+	
+	clk		,
+	rst_n		,
+	);
+
+
+endmodule
+
