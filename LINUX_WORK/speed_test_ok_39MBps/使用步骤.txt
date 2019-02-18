@@ -1,0 +1,49 @@
+1) Install the build tools
+
+
+sudo apt-get install build-essential (yum install make automake gcc gcc-c++ kernel-devel)
+
+
+sudo apt-get install git-core (yum install git)
+sudo apt-get install cmake (yum install cmake)
+
+
+sudo apt-get install doxygen (for building documentations) (yum install doxygen)
+
+
+
+2) Install dependencies
+
+sudo apt-get install libusb-1.0-devel (yum install libusb-devel)
+(if the system comes with older version like 1.0.8 or
+earlier, it is recommended you build libusbx-1.0.14 or later).
+
+
+
+sudo apt-get install libconfuse-dev (for ftdi-eeprom) (yum install libconfuse-devel)
+
+
+sudo apt-get install swig python-dev (for python bindings) (yum install swig python-devel)
+
+
+sudo apt-get install libboost-all-dev (for C++ binding and unit test) (yum install boost-devel)
+
+4) Build the source and install
+cd libftdi1-1.4/build
+
+cmake  -DCMAKE_INSTALL_PREFIX="/usr" ../
+
+make -j4
+
+sudo make install
+
+5)carry out speed tests
+cd examples
+
+cmake ./
+
+make 
+
+stream_test -n
+
+

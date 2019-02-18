@@ -1,0 +1,20 @@
+﻿生成启动时间为 2018-09-27 9:26:56。
+     1>项目“G:\FPWG_WORK\data_trans\doc\I2CTEST\I2CTEST\I2CTEST.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         D:\majorsoft\soft\VisualStudioProfessional2013\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Release\I2CTEST.pch" /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt I2CTEST.cpp
+         I2CTEST.cpp
+     1>I2CTEST.cpp(25): warning C4101: “i”: 未引用的局部变量
+     1>I2CTEST.cpp(24): warning C4101: “data_base”: 未引用的局部变量
+     1>I2CTEST.cpp(417): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\majorsoft\soft\VisualStudioProfessional2013\VC\include\string.h(112) : 参见“strcpy”的声明
+       Link:
+         D:\majorsoft\soft\VisualStudioProfessional2013\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"G:\FPWG_WORK\data_trans\doc\I2CTEST\Release\I2CTEST.exe" /INCREMENTAL:NO /NOLOGO opencv_world300.lib opencv_world300d.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"G:\FPWG_WORK\data_trans\doc\I2CTEST\Release\I2CTEST.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"G:\FPWG_WORK\data_trans\doc\I2CTEST\Release\I2CTEST.lib" /MACHINE:X86 /SAFESEH Release\I2CTEST.obj
+         Release\stdafx.obj
+         正在生成代码
+         已完成代码的生成
+         I2CTEST.vcxproj -> G:\FPWG_WORK\data_trans\doc\I2CTEST\Release\I2CTEST.exe
+     1>已完成生成项目“G:\FPWG_WORK\data_trans\doc\I2CTEST\I2CTEST\I2CTEST.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:01.48

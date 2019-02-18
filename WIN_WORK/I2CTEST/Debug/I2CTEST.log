@@ -1,0 +1,11 @@
+﻿生成启动时间为 2018/12/2 20:19:15。
+     1>项目“L:\FPWG_WORK\data_trans\doc\I2CTEST\I2CTEST\I2CTEST.vcxproj”在节点 2 上(Build 个目标)。
+     1>Link:
+         D:\major_soft\soft\VisualStudio\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"L:\FPWG_WORK\data_trans\doc\I2CTEST\Debug\I2CTEST.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"L:\FPWG_WORK\data_trans\doc\I2CTEST\Debug\I2CTEST.pdb" /SUBSYSTEM:CONSOLE /HEAP:"102400" /STACK:"1024000" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"L:\FPWG_WORK\data_trans\doc\I2CTEST\Debug\I2CTEST.lib" /MACHINE:X86 /SAFESEH Debug\I2CTEST.obj
+         Debug\stdafx.obj
+         I2CTEST.vcxproj -> L:\FPWG_WORK\data_trans\doc\I2CTEST\Debug\I2CTEST.exe
+     1>已完成生成项目“L:\FPWG_WORK\data_trans\doc\I2CTEST\I2CTEST\I2CTEST.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:00.36
