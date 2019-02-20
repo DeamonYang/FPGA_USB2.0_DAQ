@@ -1,0 +1,20 @@
+﻿生成启动时间为 2019/2/20 19:20:07。
+     1>项目“D:\major_soft\soft_doc\VS\FT232H_DAQ\USB_DAQ_DRIVE\USB_DAQ_DRIVE\USB_DAQ_DRIVE.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         D:\major_soft\soft\VisualStudio\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp usb_daq_drv.cpp
+         usb_daq_drv.cpp
+     1>d:\major_soft\soft_doc\vs\ft232h_daq\usb_daq_drive\usb_daq_drive\usb_daq_drv.cpp(23): warning C4101: “res”: 未引用的局部变量
+     1>d:\major_soft\soft_doc\vs\ft232h_daq\usb_daq_drive\usb_daq_drive\usb_daq_drv.cpp(136): warning C4101: “BytesReceived”: 未引用的局部变量
+     1>d:\major_soft\soft_doc\vs\ft232h_daq\usb_daq_drive\usb_daq_drive\usb_daq_drv.cpp(135): warning C4101: “ftStatus”: 未引用的局部变量
+         main.cpp
+     1>d:\major_soft\soft_doc\vs\ft232h_daq\usb_daq_drive\usb_daq_drive\main.cpp(49): warning C4101: “temp”: 未引用的局部变量
+         正在生成代码...
+       Link:
+         D:\major_soft\soft\VisualStudio\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\major_soft\soft_doc\VS\FT232H_DAQ\USB_DAQ_DRIVE\Debug\USB_DAQ_DRIVE.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\major_soft\soft_doc\VS\FT232H_DAQ\USB_DAQ_DRIVE\Debug\USB_DAQ_DRIVE.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\major_soft\soft_doc\VS\FT232H_DAQ\USB_DAQ_DRIVE\Debug\USB_DAQ_DRIVE.lib" /MACHINE:X86 Debug\main.obj
+         Debug\usb_daq_drv.obj
+         USB_DAQ_DRIVE.vcxproj -> D:\major_soft\soft_doc\VS\FT232H_DAQ\USB_DAQ_DRIVE\Debug\USB_DAQ_DRIVE.exe
+     1>已完成生成项目“D:\major_soft\soft_doc\VS\FT232H_DAQ\USB_DAQ_DRIVE\USB_DAQ_DRIVE\USB_DAQ_DRIVE.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:02.14
